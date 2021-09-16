@@ -1,6 +1,6 @@
 # Digitize Plots
 
-In my personal time, I've been downloading and digitizing plots from different code standars and ASHERAE handbooks in order to make a lightweight calculator to obtain flow rates, transmittance, etc.
+In my personal time, I've been downloading and digitizing plots from different code standards and ASHRAE handbooks in order to make a lightweight calculator to obtain flow rates, transmittance, etc.
 
 ## Installation & Usage
 
@@ -21,7 +21,7 @@ This project also contains a Python script ('main.py') that can extract all imag
 The data in the spreadsheet is obtained from images of different plots that are uploaded to [WebPlotDigitizer ](https://apps.automeris.io/wpd/) with some pre-processing to remove text and crop if necessary. This generated a .csv file that I downloaded and copied into 'digitizedPlots.xlsm'.
 
 ## Fitting Curves
-I use a combination of fitting to Power curves and using Newton's method to solve for a polynomial fit. 
+I used a combination of fitting to Power curves and using Newton's method to solve for a polynomial fit. However, I believe that Newton's method could have been applied to all data sets.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
